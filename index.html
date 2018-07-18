@@ -1,0 +1,114 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>CerealKit lib example</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="description" content="Page description">
+    <meta property="og:title" content="Title Here">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="">
+    <meta property="og:image" content="">
+    <meta property="og:description" content="Description Here">
+    <meta property="og:site_name" content="Site Name, i.e. Moz">
+
+    <link rel="stylesheet" href="./app.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/cerealkit@0.1.5/dist/cerealkit.min.css">
+
+  </head>
+  <body style="margin: 0;">
+
+    <!-- <div
+      class="cereal-kit"
+      style="background: #111"
+      style="height: 777px; width: 100vw"
+      data-cereal-open="onload"
+      data-cereal-type="inline"
+      data-cereal-close-methods="['button']"
+      data-cereal-slug="test-again"
+    /> -->
+
+    <div class="styleguide">
+      <div class="styleguide-content">
+        <div class="content-wrapper">
+          <img width="81%" src="./vegetables.jpg" />
+          <div class="w-row">
+            <div class="basic-column w-col w-col-8">
+              <div class="tag-wrapper">
+                <h2>Vegan recipes, the tappable way 👇</h2>
+                <div class="divider"></div>
+                <p class="larger-paragraph">A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Even the all-powerful Pointing has no control about.</p>
+              </div>
+            </div>
+          </div>
+          <div class="w-row">
+            <div class="basic-column w-col w-col-3 w-col-medium-3">
+              <div class="tag-wrapper">
+                <div
+                  class="card"
+                  style="background-position: 10% 50%;background-size: cover;background-image: url(https://images.unsplash.com/photo-1473093226795-af9932fe5856?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=3bf6fd384a4045ad91b8f08279f02ab8&auto=format&fit=crop&w=1370&q=80)"
+                >
+                  <div style="border-radius: 8px;position: absolute;left: 0; top: 0;height: 100%;width: 100%;background: rgba(0,0,0,.4)"></div>
+                  <div class="tagline white-hero-tagline">Vegan 1</div>
+                  <h3 class="card-headline">Awesome food you'd eat right away</h3>
+                  <a
+                    class="button default-button card-cta w-button"
+                    data-cereal-open="click"
+                    data-cereal-type="modal"
+                    data-cereal-slug="squadrunner-testimonial"
+                  >
+                    Explore
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="basic-column w-col w-col-3 w-col-medium-3">
+              <div class="tag-wrapper">
+                <div class="card card2-content">
+                  <div class="tagline white-hero-tagline">Introducing</div>
+                  <h3 class="card-headline">5 Crazy Recent News Stories</h3>
+                  <a class="button default-button card-cta w-button">Explore</a>
+                </div>
+              </div>
+            </div>
+            <div class="basic-column w-col w-col-6 w-col-medium-6">
+              <div class="tag-wrapper">
+                <div class="card card3-content">
+                  <div class="tagline tagline-promo-40">Trending</div>
+                  <h3 class="card-headline dark-card-headline _6col-card">Alton Attorney Accidentally Sues Himself</h3>
+                  <a class="button default-button card-cta w-button">Explore</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+    <div class="styleguide">
+      <div class="styleguide-content">
+        <div class="content-wrapper">
+
+        </div>
+      </div>
+    </div>
+
+  </body>
+  <!-- <script src="../library/dist/cerealkit.js"></script> -->
+  <!-- <script src="../library/dist/cerealkit.min.js"></script> -->
+  <script src="https://cdn.jsdelivr.net/npm/cerealkit@0.1.5/dist/cerealkit.min.js"></script>
+  <script>
+    function createCerealDiv() {
+      var div = document.createElement('div');
+      div.setAttribute('data-cereal-slug', 'squadrunner-testimonial');
+      div.setAttribute('data-cereal-type', 'inline');
+      div.style.background = '#111';
+      document.body.appendChild(div);
+    }
+  </script>
+</html>

@@ -1,0 +1,25 @@
+{
+  "name": "cerealkit-lib-example",
+  "version": "1.0.0",
+  "description": "Wanna test cerealKit lib example?",
+  "main": "index.html",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/THook/cerealkit-lib-example.git"
+  },
+  "keywords": [
+    "none"
+  ],
+  "author": "Hugo Villain",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/THook/cerealkit-lib-example/issues"
+  },
+  "homepage": "https://github.com/THook/cerealkit-lib-example#readme",
+  "dependencies": {
+    "tingle.js": "^0.13.2"
+  }
+}
