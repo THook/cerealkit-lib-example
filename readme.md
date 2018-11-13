@@ -1,8 +1,8 @@
 
 # Cerealkit lib example
 
-
-Living example here: http://example.trycereals.com
+This is a work in progress.
+Click the first card on http://example.trycereals.com to see how you could embed your own stories.
 
 --
 
